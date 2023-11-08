@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+
+     <input type="text" id="name"> 
+    <button onclick="showName()">Send</button>
+
+    <p id="np"></p>
+
+    <script>
+        function showName () {
+            let name = document.getElementById("name").value;
+            document.getElementById("np").innerHTML = " Your name is " + name;
+        }
+    </script>
+
+</body>
+</html>
